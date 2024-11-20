@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+.header{
+    background-color:rgb(26, 188, 156);
+    overflow: hidden;
+    color: white;
+
+}
+.navbar{
+    position: fixed;
+    background-color:rgb(44, 62, 80);
+    
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    height: 70px;
+    font-family:"Montserrat", sans-serif;
+    padding-top: 20px;
+
+    
+}
+.navbar1{
+    margin-left: 40px;
+    /*background-color: blueviolet;*/
+    margin-top: 10px;
+    font-size:25px ;
+}
+.navbar2{
+   /* background-color: blue;*/
+    display: flex;
+    margin-right: 80px;
+    margin-top: 10px;
+    
+}
+.navbar p{
+    margin-right: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px ;
+    font-weight: 700;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.photostart{
+    width:15% ;
+    margin-top: 50px;
+   margin: auto; 
+    padding-top: 200px;
+
+}
+.start1{
+    text-align: center;
+    padding-bottom: 60px;
+    font-family:"Montserrat", sans-serif;
+}
+.start1 h1{
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+.start1 p{
+    padding-top: 25px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.Portfolio{
+    text-align: center;
+    /*background-color: brown;*/
+    color:rgb(44, 62, 80) ;
+    font-family:"Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.imgPortfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 35px 5px;
+    
+
+   
+}
+.photoport{
+width: 30%;
+
+}
+.photoport img{
+    width: 85%;
+    border-radius: 10px;
+}
+.about{
+    background-color:rgb(26, 188, 156);
+    color: white;
+    height: 400px;
+   text-align: center;
+    font-family:"Montserrat", sans-serif;
+    
+}
+button{
+    font-size: 15px;
+ text-decoration: none;
+   color: white;
+   background-color:rgb(26, 188, 156);
+   padding: 20px 30px 20px 0px;
+   border: 1px solid wheat;
+   padding-left: 10px;
+   border-radius: 8px;
+    
+}
+.download{
+    padding-left:25px ;
+    padding-right: 5px;
+}
+.aboutp{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    /*background-color: brown;*/
+    
+}
+.aboutpchildren{
+    width: 40%;
+    text-align: left;
+    padding-bottom: 50px;
+ 
+}
+.aboutaddress{
+    color: white;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /*background-color: crimson;*/
+
+}
+.aboutpleft{
+    margin-left: 140px;
+}
+.ContactMe{
+    height: 600px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:"Montserrat", sans-serif;
+    color:rgb(44, 62, 80);
+}
+.ContactMe p{
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+.information input, .information textarea{
+    font-size: 1.3rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-width: 1px;
+    padding: 15px;
+}
+.btncontact{
+margin-right: 220px;
+}
+.btncontact input{
+    padding: 18px;
+    margin-top: 20px;
+    background-color: teal;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.contactcomplete{
+    height: 250px;
+    background-color:rgb(44, 62, 80);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+    font-family:"Montserrat", sans-serif;
+}
+.contactcomplete1{
+    width: 33%;
+    padding-top: 60px;
+}
+
+
+.btncontactcomplete1{
+    background-color:rgb(44, 62, 80) ;
+    border-radius: 35px;
+    margin-left: 5px;
+    width: 65px;
+
+}
+.pcontactcomplete{
+font-weight: 700;
+font-size: 18px;
+}
+
+button i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.contactcomplete1 a{
+    color:rgb(26, 188, 156);
+}
+.Copyright{
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(24, 35, 46);
+    height: 40px;
+    padding-top: 25px;
+    font-family:"Montserrat", sans-serif;
+}
+
+
